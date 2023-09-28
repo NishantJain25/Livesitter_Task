@@ -1,0 +1,11 @@
+.video-container{
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid black;
+    overflow: hidden;
+    user-select: none;
+  }
+  
+
+  

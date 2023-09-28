@@ -1,0 +1,16 @@
+.overlay-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.buttons button{
+    flex: 1;
+}

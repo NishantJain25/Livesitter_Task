@@ -1,0 +1,61 @@
+.box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor:move;
+  }
+
+  .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    pointer-events: none;
+  }
+  .resizer{
+    position: absolute;
+    background-color: transparent;
+  }
+  .rt, .rb{
+    width: 100%;
+    height: 3px;
+    cursor:row-resize;
+    
+  }
+  .rr, .rl{
+    height: 100%;
+    width: 3px;
+    cursor: col-resize;
+  }
+  .rt{
+    top:0;
+  }
+  .rb{
+    bottom: 0;
+  }
+  .rr{
+    right:0;
+  }
+  .rl{
+    left: 0;
+  }
+  #delete{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 30px;
+    background-color: red;
+  }
